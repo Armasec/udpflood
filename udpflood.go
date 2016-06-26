@@ -1,7 +1,7 @@
 package main
 
 import (
-    "github.com/alecthomas/kingpin"
+    "gopkg.in/alecthomas/kingpin.v2"
     "net"
     "fmt"
 )
