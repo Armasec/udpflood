@@ -18,7 +18,7 @@ func main() {
 
 	fullAddr := fmt.Sprintf("%s:%v", *_host, *_port)
 	//Create send buffer
-	var buf []byte = make([]byte, *_size)
+	buf := make([]byte, *_size)
 
 	//Establish udp
 	conn, err := net.Dial("udp", fullAddr)
