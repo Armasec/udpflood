@@ -8,7 +8,7 @@ A simple UDP flooder written in Golang. **Use this for educational purposes only
 
 ## Build
 ```bash
-git clone https://github.com/Armasec/udpflood
+git clone https://github.com/cameronpoe/udpflood
 cd udpflood
 export GOPATH=`pwd`
 go get ./...
